@@ -1,0 +1,78 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(7, 7, 7);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(254, 248, 248);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #077e53;
+    color: white;
+  }
+  /* coulmns */
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    font-size: larger;
+  }
+
+/* head */
+.header {
+    padding: 8px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    text-decoration: solid;
+    font-weight: bold;
+  }
+  .icon{ 
+    padding: 0px;
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    text-decoration: double;
+    background-color: #f2f2f2;
+    font-weight: bolder;
+  }
+body{
+    background-color: aqua;
+}
+
+
+
+  
+  
